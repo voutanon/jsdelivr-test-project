@@ -1,6 +1,12 @@
 .container {
   padding-top: 0;
   padding-bottom: 0;
+  @media (min-width: 960px) {
+    max-width: 900px;
+  }
+  @media (min-width: 1264px) {
+    max-width: 1185px;
+  }
 }
 .v-application--wrap {
   display: grid !important;
