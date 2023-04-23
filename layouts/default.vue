@@ -1,10 +1,10 @@
 <template>
-  <div class="container">
+  <v-app class="container">
     <Header />
     <Nuxt />
     <Footer />
     <PackageModal />
-  </div>
+  </v-app>
 </template>
 
 <script>
@@ -23,8 +23,6 @@ export default {
 </script>
 <style lang="scss" scoped>
   .container {
-    display: grid;
-    grid-template-rows: max-content 1fr max-content;
     min-height: 100vh;
     @media screen and (max-width: 768px) {
       padding: 0;

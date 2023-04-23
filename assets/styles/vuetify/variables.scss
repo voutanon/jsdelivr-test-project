@@ -2,3 +2,8 @@
   padding-top: 0;
   padding-bottom: 0;
 }
+.v-application--wrap {
+  display: grid !important;
+  grid-template-rows: max-content 1fr max-content !important;
+  min-height: 100vh !important;
+}
